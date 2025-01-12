@@ -1,11 +1,10 @@
 import allure
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from pages.base_page import BasePage
-from resources.test_data import Data
+from resources.data import Data
 
 class OrderPage(BasePage):
     # Локаторы для формы заказа
